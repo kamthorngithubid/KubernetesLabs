@@ -185,7 +185,7 @@ docker stop server
 ### 03.01. Writing the deployment & Service file
 
 - Deploy the docker container you prepared in the previous step with the following `Deployment` file.
-- In this sample we will define the values in the yaml file,later on we will use Secrets/ConfigMap [variables-from-yaml.yaml](./variables-from-yaml.yaml)
+- In this sample we will define the values in the yaml file,later on we will use Secrets/ConfigMap [variables-from-yaml.yaml](./resources/variables-from-yaml.yaml)
 ```yaml
 apiVersion: v1
 kind: Namespace
